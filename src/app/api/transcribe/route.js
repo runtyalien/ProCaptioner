@@ -5,8 +5,8 @@ function getClient() {
   return new TranscribeClient({
     region: 'ap-south-1',
     credentials: {
-      accessKeyId: process.env.AWS_ACCESS_KEY,
-      secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+      accessKeyId: process.env.OM_ACCESS_KEY,
+      secretAccessKey: process.env.OM_SECRET_ACCESS_KEY,
     },
   });
 }
